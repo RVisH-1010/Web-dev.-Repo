@@ -18,6 +18,10 @@ a:hover{
     background-color: aqua;
 }
 ol{
-    list-style: 1;
     list-style-type: lower-alpha;
+}
+.Lorem{
+    background-color: rgb(245, 194, 129);
+    border: 1px solid red;
+    border-radius: 5px;
 }
