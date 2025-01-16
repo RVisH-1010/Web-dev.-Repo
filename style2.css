@@ -1,0 +1,30 @@
+#first{
+    font-family: cursive;
+    /* text-align: center; */
+    /* text-shadow: 3px grey; */
+    /* text-transform: uppercase; */
+    /* text-decoration-style: dashed; */
+    background-color:rgb(162, 196, 95);
+    /* width: max-content; */
+    /* border: 1px solid black; */
+    /* border-style: dashed; */
+    border-radius: 5px;
+    padding: 1px;
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+.div{
+    display: inline-block;
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+}
+.boxshd{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    box-shadow: 5px 15px 5px grey;
+    text-shadow: 2px 2px 4px rgb(218, 12, 12);
+}
