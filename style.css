@@ -1,4 +1,23 @@
-div{
-    background-color: black;
-    color: antiquewhite;
+*{
+    padding: 0px;
+    margin: 1px;
+}
+#div1{
+    background-color: rgb(65, 45, 45);
+}
+.first{
+    text-align: center;
+    background-color: rgb(102, 98, 98);
+    color: rgb(236, 231, 225);
+}
+a:visited{
+    color: rgb(8, 8, 61);
+    background-color: rgb(189, 175, 175) ;
+}
+a:hover{
+    background-color: aqua;
+}
+ol{
+    list-style: 1;
+    list-style-type: lower-alpha;
 }
