@@ -16,56 +16,85 @@
 
             body {
                 background-color: #92d5ade7;
+                scroll-margin: 1px;
             }
 
             div ul {
                 display: flex;
                 list-style: none;
-                background-color: #082c39;
+                background-color: #ffe7e8cf;
                 color: aqua;
             }
 
             div ul li {
                 padding: 3px 5px;
-                color: blue;
+                
                 border: 1px solid white;
                 border-radius: 5px;
                 margin: 3px;
                 text-decoration: none;
+                text-decoration-line: none;
+                /* margin: 5px; */
             }
-
+            ul a:link{
+                color: black;
+                width: bold;
+                text-decoration: none;
+            }
+            ul a:hover{
+                background-color: aqua;
+                color: rgb(79, 2, 151);
+            }
             .box {
                 border: 3px solid grey;
                 margin: 3px;
-                
+                margin: 20px;
             }
-            .articles{
+
+            .articles {
                 display: flex;
+                position: static;
             }
-            .box1 {}
-            footer{
+
+            #box1 {
+                position: relative;
+                left: 10px;
+                width: 50vw;
+                height: 90vh;
+                border: 2px solid white;
+            }
+
+            #box2 {
+                position: relative;
+                right: 10px;
+                width: 50vw;
+                height: 90vh;
+                border: 2px solid white;
+            }
+
+            footer {
                 border: 2px solid black;
                 border-radius: 10px;
-                height: 30vh;
+                height: 10vh;
                 width: 90vw;
+                margin: 10px;
+                position: fixed;
             }
         </style>
     </head>
-
     <body>
         <div>
-            <nav>
-                <ul>
-                    <li><a href="www.index.html">MENU</a></li>
-                    <li><a href="ff">Home</a></li>
-                    <li><a href="hbd">CONTACTS</a></li>
-                    <li><a href="https://www.google .com">IMPORTANT LINKS</a></li>
-                </ul>
-            </nav>
+
+            <ul>
+                <li><a href="www.index.html">MENU</a></li>
+                <li><a href="ff">Home</a></li>
+                <li><a href="hbd">CONTACTS</a></li>
+                <li><a href="https://www.google .com">IMPORTANT LINKS</a></li>
+            </ul>
         </div>
         <div class="articles">
-            <div class="box box1"></div>
-            <div class="box box2"></div>
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
         </div>
         <footer>
             <h3>This is footer</h3>
