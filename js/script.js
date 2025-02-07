@@ -20,3 +20,6 @@ let o = {
     "key": "value"
 }
 console.log(o);
+
+//lect 57 #2nd on javascript
+// conditionals
