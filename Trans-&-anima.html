@@ -7,9 +7,10 @@
     <title>upto ex-8</title>
 </head>
 <style>
-    body{
+    body {
         background-color: rgb(5, 5, 31);
     }
+
     div h2 {
         justify-content: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,7 +19,8 @@
         display: flex;
         color: aliceblue;
     }
-    .box1{
+
+    .box1 {
         width: 80px;
         height: 80px;
         background-color: #cf0000;
@@ -29,14 +31,15 @@
         justify-content: center;
         /* transform: rotate(90deg); */
         transform: translate(80vw);
-        
+
         transition-property: transform;
         transition-duration: 3s;
         transition-timing-function: cubic-bezier(0.42, 0.76, 0, 1.5);
         transition-delay: 0.2s;
-        
+
     }
-    .box-2{
+
+    .box-2 {
         width: 100px;
         height: 100px;
         margin: 10px;
@@ -51,16 +54,27 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: reverse;
+        box-shadow: #b9b9cc;
     }
+
     @keyframes rotation {
-        from{
+        from {
             transform: translate(300px);
-        }   
-        to{
+        }
+
+        to {
             transform: rotate(-180deg);
-            
+
             /* transform: translate(300px); */
-        }     
+        }
+    }
+
+    .mask {
+        padding: 20px 10px;
+        margin: 10px;
+        -webkit-mask-image: url(w3logo.png);
+        mask-image: url(w3logo.png);
+        mask-repeat: no-repeat;
     }
 </style>
 
@@ -76,6 +90,15 @@
     <div class="box-2">
         box 2
     </div>
+
+    <div class="mask">
+        <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="italy image">
+    </div>
+
+    <script>
+        prompt = console.log("hey enter secret code!");
+
+    </script>
 </body>
 
 </html>
